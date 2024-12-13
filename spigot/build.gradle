@@ -53,9 +53,6 @@ tasks {
         relocate("com.tcoded.folialib", "com.github.kaspiandev.antipopup.libs.folialib")
 
         dependencies {
-            exclude(dependency("org.spigotmc:spigot-api"))
-            exclude(dependency("com.viaversion:viaversion"))
-            exclude(dependency("org.apache.logging.log4j:log4j-core"))
             exclude(dependency("org.bstats:bstats-bukkit"))
             exclude(dependency("com.github.retrooper:packetevents-spigot"))
             exclude(dependency("com.tcoded:FoliaLib"))
