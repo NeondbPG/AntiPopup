@@ -34,7 +34,6 @@ tasks {
         dependencies {
             exclude(dependency("org.bstats:bstats-bukkit"))
             exclude(dependency("com.github.retrooper:packetevents-spigot"))
-            exclude(dependency("com.tcoded:FoliaLib"))
         }
     }
 }
